@@ -6,6 +6,7 @@ This contains the game codes for hangman and the medias in the codes.
 ## How to play
 Solo mode: The program will automatically strip some letters in the program according to the difficulty you have chosen, input the letters present in the word. If you have seven incorrect guesses, you lose!
 Two people mode: The program will strip some letters in the word the player input. The other player needs to guess the correct letters, and if he or she has seven incorrect guesses, he or she loses.
+Extract the zip file included and change the paths in ```playsound``` to play audios.
 ## Known issues
 - Some words are too difficult to guess because the program stripped too many letters.
 - If the user doesn't input letters in order, the program will regard that as correct, but the word may be messed up.
